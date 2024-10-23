@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fas fa-user-md medical-icon"></i>
+            <h1>Diabetes AI</h1>
+        </div>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="/login/" method="POST">
+                <div class="input-group">
+                    <label for="crm">CRM</label>
+                    <input type="text" id="crm" name="crm" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Ainda não tem uma conta? <a href="Cadastro.html">Cadastre-se</a></p>
+        </div>
+    </div>
+</body>
+</html>
